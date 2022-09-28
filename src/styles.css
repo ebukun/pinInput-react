@@ -46,3 +46,8 @@ input:focus {
   align-items: center;
   flex-direction: column;
 }
+
+.warning {
+  font-size: 14px;
+  color: red;
+}
