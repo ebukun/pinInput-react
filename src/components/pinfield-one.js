@@ -8,7 +8,7 @@ export default function PinFieldOne() {
     otp1: "",
     otp2: "",
     otp3: "",
-    otp4: ""
+    otp4: "",
   });
 
   const updateOTPField = (event) => {
@@ -59,6 +59,7 @@ export default function PinFieldOne() {
     <div className="wrapper">
       <div className="wrapper--container">
         <h4>Using TabIndex</h4>
+        <p className="warning">*functionality needs improvement*</p>
         <form className="container" onSubmit={submitCode}>
           <input
             name="otp1"
