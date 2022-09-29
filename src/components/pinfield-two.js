@@ -9,7 +9,7 @@ export default function PinFieldTwo() {
   const handleInputFocus = (e) => {
     const value = e.key;
 
-    if (value !== "Backspace" && value === "Delete" && !/\d/.test(value)) {
+    if (value !== "Backspace" && value !== "Delete" && !/\d/.test(value)) {
       return;
     }
 
